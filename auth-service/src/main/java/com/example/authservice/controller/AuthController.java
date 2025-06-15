@@ -4,14 +4,12 @@ import com.example.authservice.dto.LoginRequestDTO;
 import com.example.authservice.dto.LoginResponseDTO;
 import com.example.authservice.service.AuthService;
 import io.swagger.v3.oas.annotations.Operation;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
-@Slf4j
 @RestController
 public class AuthController {
 
